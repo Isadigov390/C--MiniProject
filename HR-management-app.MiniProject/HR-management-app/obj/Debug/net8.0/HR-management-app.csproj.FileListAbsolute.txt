@@ -1,0 +1,15 @@
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\bin\Debug\net8.0\HR-management-app.exe
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\bin\Debug\net8.0\HR-management-app.deps.json
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\bin\Debug\net8.0\HR-management-app.runtimeconfig.json
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\bin\Debug\net8.0\HR-management-app.dll
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\bin\Debug\net8.0\HR-management-app.pdb
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.AssemblyInfoInputs.cache
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.AssemblyInfo.cs
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.csproj.CoreCompileInputs.cache
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.sourcelink.json
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.dll
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\refint\HR-management-app.dll
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.pdb
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\HR-management-app.genruntimeconfig.cache
+C:\Users\asusr\OneDrive\Desktop\def\programming langs\c#\PB502\Mini-Project\HR-management-app.MiniProject\HR-management-app\obj\Debug\net8.0\ref\HR-management-app.dll
