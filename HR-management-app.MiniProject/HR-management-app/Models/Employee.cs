@@ -19,7 +19,7 @@ namespace HR_management_app.Models
             set
             {
                 if (value.Length >= 2) _position = value;
-                else throw new Exception("Position must contain 2 characters ");
+                else throw new Exception("Position must contain min 2 characters ");
             }
         }
 
@@ -38,22 +38,14 @@ namespace HR_management_app.Models
 
         public Employee(string fullName, string position, decimal salary, string departmentName)
         {
-                
-            try
-            {
-                FullName = fullName;
-                Position = position;
-                Salary = salary;
-                DepartmentName = departmentName;
 
-                No = departmentName.Substring(0, 2).ToUpper() + employeeCounter;
-                employeeCounter++;
-            }
-            catch (Exception ex)
-            {
+            FullName = fullName;
+            Position = position;
+            Salary = salary;
+            DepartmentName = departmentName;
 
-                Console.WriteLine(ex.Message);
-            }
+            No = departmentName.Substring(0, 2).ToUpper() + employeeCounter;
+            employeeCounter++;
         }
 
     }
