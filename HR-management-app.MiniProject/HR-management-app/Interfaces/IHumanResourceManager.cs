@@ -5,12 +5,12 @@ namespace HR_management_app.Interfaces
     public interface IHumanResourceManager
     {
         List<Department> Departments { get; }
-        void AddDepartment();
+        void AddDepartment(Department department);
         List<Department> GetDepartments();
-        void EditDepartaments();
-        void AddEmployee();
-        void RemoveEmployee();
-        void EditEmploye();
-        List<Department> Search();
+        void EditDepartaments(string searchedDepName,string newDepName);
+        void AddEmployee(Employee employee,string depName);
+        void RemoveEmployee(string employeeNo,string depName);
+        void EditEmploye(string no,decimal newSalary,string newPossition);
+        List<Employee> Search(string search);
     }
 }

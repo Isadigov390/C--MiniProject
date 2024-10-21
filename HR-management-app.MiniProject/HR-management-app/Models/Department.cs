@@ -6,12 +6,13 @@
         private string _name;
         private int _workerLimit;
         private decimal _salaryLimit;
+        public bool isDelete=false;
         public string Name {
             get
             {
                 return _name;
             }
-            set
+            set 
             {
                 if (value.Length >= 2) _name = value;
                 else throw new Exception("Name must contain min 2 characters ");

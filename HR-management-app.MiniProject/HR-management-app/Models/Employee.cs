@@ -7,6 +7,7 @@ namespace HR_management_app.Models
         public string No{ get; set; }
         public string FullName { get; set; }
         public string DepartmentName { get; set; }
+        private bool isDelete { get; set; }
         private decimal _salary;
         private string _position;
         private static int employeeCounter = 1000;
