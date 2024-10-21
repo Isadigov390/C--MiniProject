@@ -42,7 +42,14 @@ namespace HR_management_app.Models
             foreach (var department in Departments)
             {
                 var employee = department.Employees.Find(n=>n.No==no);
+                if (employee is not null)
+                {
+                    employee.Salary = newSalary;
+                    employee.Position = newPossition;
+                    return;
+                }
             }
+            throw new Exception("Not Found");
         }
 
         public List<Department> GetDepartments()
