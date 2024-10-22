@@ -66,12 +66,18 @@ namespace HR_management_app.Models
             {
                 var employee = department.Employees.Find(n=>n.No==employeeNo);
             }
-            
+#warning not finished
         }
 
         public List<Employee> Search(string search)
         {
-            throw new NotImplementedException();
+            var res = new List<Employee>();
+            foreach (var department in Departments)
+            {
+                var employees=department.Employees.FindAll(n=>n.FullName.ToLower().Contains(search.ToLower()));
+                res.AddRange(employees);
+            }
+            return res;
         }
     }
 }
