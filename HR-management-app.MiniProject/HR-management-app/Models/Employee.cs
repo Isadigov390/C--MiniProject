@@ -1,4 +1,5 @@
-﻿using System.Threading.Channels;
+﻿using HR_management_app.Excepions;
+using System.Threading.Channels;
 
 namespace HR_management_app.Models
 {
@@ -20,7 +21,7 @@ namespace HR_management_app.Models
             set
             {
                 if (value.Length >= 2) _position = value;
-                else throw new Exception("Position must contain min 2 characters ");
+                else throw new Minimum2CharsException("Position must contain min 2 characters ");
             }
         }
 
@@ -33,7 +34,7 @@ namespace HR_management_app.Models
             {
 
                 if (value > 250) _salary = value;
-                else throw new Exception("Salary must be greater than 250");
+                else throw new SalaryLessThan250Exception("Salary must be greater than 250");
             }
         }
 

@@ -1,4 +1,6 @@
-﻿namespace HR_management_app.Models
+﻿using HR_management_app.Excepions;
+
+namespace HR_management_app.Models
 {
     public class Department
     {
@@ -16,7 +18,7 @@
             set 
             {
                 if (value.Length >= 2) _name = value;
-                else throw new Exception("Name must contain min 2 characters ");
+                else throw new Minimum2CharsException("Name must contain min 2 characters ");
             }
         }
         public int WorkerLimit {
@@ -27,7 +29,7 @@
             set
             {
                 if (value >= 1) _workerLimit = value;
-                else throw new Exception("Worker limit can be min 1 ");
+                else throw new WorkerLimitException("Worker limit can be min 1 ");
             }
         }
         public decimal SalaryLimit {

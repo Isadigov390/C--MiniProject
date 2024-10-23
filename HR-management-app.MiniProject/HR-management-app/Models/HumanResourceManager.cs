@@ -1,4 +1,5 @@
-﻿using HR_management_app.Interfaces;
+﻿using HR_management_app.Excepions;
+using HR_management_app.Interfaces;
 
 namespace HR_management_app.Models
 {
@@ -46,7 +47,7 @@ namespace HR_management_app.Models
                     return;
                 }
             }
-            throw new Exception("Not Found");
+            throw new EmployeeNotFoundException("Employee Not Found");
         }
 
         public List<Department> GetDepartments()
@@ -58,12 +59,12 @@ namespace HR_management_app.Models
         public void RemoveEmployee(string employeeNo, string depName)
         {
             var department = Departments.Find(n => n.Name == depName);
-            if (department == null) throw new Exception("Department not found.");
+            if (department == null) throw new DepartmentNotFoundException("Department not found.");
 
             else
             {
                 var employee = department.Employees.Find(n => n.No == employeeNo);
-                if (employee == null) throw new Exception("Employee not found.");
+                if (employee == null) throw new EmployeeNotFoundException("Employee not found.");
                 else employee.isDelete = true;
 
             }

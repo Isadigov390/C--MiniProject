@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\models\\humanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\models\\humanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\excepions\\minimum2charsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\excepions\\minimum2charsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HumanResourceManager.cs",
+              "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\HumanResourceManager.cs",
+              "RelativeDocumentMoniker": "HR-management-app\\Models\\HumanResourceManager.cs",
+              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\HumanResourceManager.cs",
+              "RelativeToolTip": "HR-management-app\\Models\\HumanResourceManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswDEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:06:02.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Minimum2CharsException.cs",
+              "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Excepions\\Minimum2CharsException.cs",
+              "RelativeDocumentMoniker": "HR-management-app\\Excepions\\Minimum2CharsException.cs",
+              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Excepions\\Minimum2CharsException.cs",
+              "RelativeToolTip": "HR-management-app\\Excepions\\Minimum2CharsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:05:15.631Z",
+              "EditorCaption": ""
             }
           ]
         }
