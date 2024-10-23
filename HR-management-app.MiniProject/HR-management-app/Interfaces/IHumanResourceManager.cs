@@ -4,7 +4,7 @@ namespace HR_management_app.Interfaces
 {
     public interface IHumanResourceManager
     {
-        List<Department> Departments { get; }
+        List<Department> Departments { get; set; }
         void AddDepartment(Department department);
         List<Department> GetDepartments();
         void EditDepartaments(string searchedDepName,string newDepName);

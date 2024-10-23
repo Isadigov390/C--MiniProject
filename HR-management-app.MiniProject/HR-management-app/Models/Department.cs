@@ -7,7 +7,8 @@
         private int _workerLimit;
         private decimal _salaryLimit;
         public bool isDelete=false;
-        public string Name {
+        public string Name 
+        {
             get
             {
                 return _name;
@@ -53,7 +54,6 @@
             WorkerLimit = workerLimit;
             SalaryLimit = salaryLimit;
             Employees = new List<Employee>();
-
         }
     }
 }

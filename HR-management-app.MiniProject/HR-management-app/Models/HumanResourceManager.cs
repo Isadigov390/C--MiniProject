@@ -4,15 +4,15 @@ namespace HR_management_app.Models
 {
     internal class HumanResourceManager : IHumanResourceManager
     {
-        public List<Department> Departments { get; private set; }
+        public List<Department> Departments { get; set; }
 
         public void AddDepartment(Department department)
         {
 
-            if (Departments.Any(d => d.Name.Equals(department.Name, StringComparison.OrdinalIgnoreCase)))
-            {
-                throw new Exception("A department with the same name already exists.");
-            }
+            //if (Departments.Any(d => d.Name.Equals(department.Name, StringComparison.OrdinalIgnoreCase)))
+            //{
+            //    throw new Exception("A department with the same name already exists.");
+            //}
 
             Departments.Add(department);
         }
@@ -22,7 +22,6 @@ namespace HR_management_app.Models
             var searchedDep = Departments.Find(n=>n.Name==depName);
             if (searchedDep == null) { throw new Exception(); }
             else searchedDep.Employees.Add(employee);
-
         }
 
         public void EditDepartaments(string searchedDepName, string newDepName)
@@ -60,14 +59,18 @@ namespace HR_management_app.Models
 
         public void RemoveEmployee(string employeeNo, string depName)
         {
-            var department = Departments.Find(n=>n.Name==depName);
-            if (department == null) { throw new Exception(); }
+            var department = Departments.Find(n => n.Name == depName);
+            if (department == null) throw new Exception("Department not found.");
+
             else
             {
-                var employee = department.Employees.Find(n=>n.No==employeeNo);
+                var employee = department.Employees.Find(n => n.No == employeeNo);
+                if (employee == null) throw new Exception("Employee not found.");
+                else employee.isDelete = true;
+
             }
-#warning not finished
         }
+
 
         public List<Employee> Search(string search)
         {
