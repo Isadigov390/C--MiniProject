@@ -5,6 +5,10 @@ namespace HR_management_app.Models
     internal class HumanResourceManager : IHumanResourceManager
     {
         public List<Department> Departments { get; set; }
+        public HumanResourceManager()
+        {
+            Departments=new List<Department>(); 
+        }
 
         public void AddDepartment(Department department)
         {
