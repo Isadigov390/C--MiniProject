@@ -7,17 +7,11 @@ namespace HR_management_app.Models
         public List<Department> Departments { get; set; }
         public HumanResourceManager()
         {
-            Departments=new List<Department>(); 
+            Departments = new List<Department>();
         }
 
         public void AddDepartment(Department department)
         {
-
-            //if (Departments.Any(d => d.Name.Equals(department.Name, StringComparison.OrdinalIgnoreCase)))
-            //{
-            //    throw new Exception("A department with the same name already exists.");
-            //}
-
             Departments.Add(department);
         }
 

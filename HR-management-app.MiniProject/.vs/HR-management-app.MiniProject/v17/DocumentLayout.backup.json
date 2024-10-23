@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\models\\humanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\interfaces\\ihumanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\interfaces\\ihumanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\excepions\\salarylessthan250exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\excepions\\salarylessthan250exception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\excepions\\positionlesscharexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\excepions\\positionlesscharexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\interfaces\\ihumanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|solutionrelative:hr-management-app\\interfaces\\ihumanresourcemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67B17063-1F9C-4156-9915-6557FD49AF31}|HR-management-app\\HR-management-app.csproj|c:\\users\\asusr\\onedrive\\desktop\\def\\programming langs\\c#\\pb502\\mini-project\\hr-management-app.miniproject\\hr-management-app\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,63 +42,78 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaryLessThan250Exception.cs",
+              "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Excepions\\SalaryLessThan250Exception.cs",
+              "RelativeDocumentMoniker": "HR-management-app\\Excepions\\SalaryLessThan250Exception.cs",
+              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Excepions\\SalaryLessThan250Exception.cs",
+              "RelativeToolTip": "HR-management-app\\Excepions\\SalaryLessThan250Exception.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:28:04.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PositionLessCharException.cs",
+              "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Excepions\\PositionLessCharException.cs",
+              "RelativeDocumentMoniker": "HR-management-app\\Excepions\\PositionLessCharException.cs",
+              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Excepions\\PositionLessCharException.cs",
+              "RelativeToolTip": "HR-management-app\\Excepions\\PositionLessCharException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T17:26:56.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HumanResourceManager.cs",
               "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\HumanResourceManager.cs",
               "RelativeDocumentMoniker": "HR-management-app\\Models\\HumanResourceManager.cs",
-              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\HumanResourceManager.cs*",
-              "RelativeToolTip": "HR-management-app\\Models\\HumanResourceManager.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\HumanResourceManager.cs",
+              "RelativeToolTip": "HR-management-app\\Models\\HumanResourceManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA7wDAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T11:39:22.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IHumanResourceManager.cs",
               "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Interfaces\\IHumanResourceManager.cs",
               "RelativeDocumentMoniker": "HR-management-app\\Interfaces\\IHumanResourceManager.cs",
               "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Interfaces\\IHumanResourceManager.cs",
               "RelativeToolTip": "HR-management-app\\Interfaces\\IHumanResourceManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T11:38:55.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\Department.cs",
               "RelativeDocumentMoniker": "HR-management-app\\Models\\Department.cs",
               "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\Department.cs",
               "RelativeToolTip": "HR-management-app\\Models\\Department.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA1wAoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:34:19.2Z"
+              "WhenOpened": "2024-10-20T11:34:19.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "HR-management-app\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Models\\Employee.cs",
-              "RelativeToolTip": "HR-management-app\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-20T11:31:54.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Program.cs",
               "RelativeDocumentMoniker": "HR-management-app\\Program.cs",
               "ToolTip": "C:\\Users\\asusr\\OneDrive\\Desktop\\def\\programming langs\\c#\\PB502\\Mini-Project\\HR-management-app.MiniProject\\HR-management-app\\Program.cs",
               "RelativeToolTip": "HR-management-app\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-20T11:26:33.368Z",
               "EditorCaption": ""
